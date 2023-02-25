@@ -6,7 +6,22 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <h1>Time Converter</h1>
+    <section> 
+      <ul class="input list">
+        <li>
+          <label for="Start">Start:</label>
+          <input type="text" id="Start" name="Start" placeholder="730">
+        </li>
+        <li>
+          <label for="Finish">Finish:</label>
+          <input type="text" id="Finish" name="Finish" placeholder="5">
+        </li>
+        <li>
+          <label for="Break">Break:</label>
+          <input type="text" id="Break" name="Break" placeholder="30">
+      </ul>
+      <button onclick="copy()">Copy</button>
+    </section>
   </body>
 </html>
