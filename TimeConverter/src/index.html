@@ -7,21 +7,26 @@
   </head>
   <body>
     <h1>Time Converter</h1>
-    <section> 
-      <ul class="input list">
-        <li>
-          <label for="Start">Start:</label>
-          <input type="text" id="Start" name="Start" placeholder="730">
-        </li>
-        <li>
-          <label for="Finish">Finish:</label>
-          <input type="text" id="Finish" name="Finish" placeholder="5">
-        </li>
-        <li>
-          <label for="Break">Break:</label>
-          <input type="text" id="Break" name="Break" placeholder="30">
-      </ul>
+    <section>
+
+      <label for="start-time">Start Time:</label>
+      <select id="start-time">
+        <option value="">Select a time</option>
+      </select>
+    
+      <label for="end-time">End Time:</label>
+      <select id="end-time">
+        <option value="">Select a time</option>
+      </select>
+
+      <label for="break-time">break-time</label>
+      <select id="break-time">
+        <option value="">break-time</option>
+      </select>
+
       <button onclick="copy()">Copy</button>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
